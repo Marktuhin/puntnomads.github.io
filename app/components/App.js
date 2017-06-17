@@ -27,7 +27,7 @@ class App extends React.Component {
               technology="Developed using JavaScript, with external websites providing the embedded sounds."
               github='SimonGame'
               preview='SimonGame' />}/>
-              <Route path="/tick-tack-toe-game" 
+              <Route path="/tic-tac-toe-game" 
               render={()=>
               <Project 
               name="Tic Tac Toe Game"
