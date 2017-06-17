@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Montserrat');
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+.page {
+  width:100%;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.height {
+  height: 1000px;
+}
+
+.about {
+  background-color: LightBlue;
+}
+
+.porfolio {
+  height: 1700px;
+  background-color: LightCyan;
+}
+
+.contact {
+  background-color: LightSkyBlue;
+  height: 800px;
+}
+
+.page h1 {
+  font-size: 96px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.header {
+  display: inline-block;
+}
+
+.underline {
+  width: 375px;
+  height: 20px;
+  background: linear-gradient(to right, #6190E8 , #a7bfe8);
+}
+
+.image {
+  display:table;
+  animation: animatedBackground 40s linear infinite;
+  background-image: url(https://davidwalsh.name/demo/bg-clouds.png);
+  background-size: cover;
+}
+
+.name {
+  margin-top: 110px;
+}
+
+.name h1 {
+  font-size: 96px;
+    margin: 0;
+    font-weight: normal;
+    color: #fff;
+    font-family: Montserrat;
+}
+
+.name h2 {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: Montserrat;
+    color: #fff;
+    margin: 0;
+}
+
+.name h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: Josefin;
+    color: #fff;
+    margin: 0;
+}
+
+.desc {
+  background-color: #a7bfe8;
+  width: 67%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.desc h2 {
+  font-weight: normal;
+  padding: 20px;
+  margin: 0;
+}
+
+.desc span {
+  font-weight: bold;
+}
+
+img {
+  width: 320px;
+  height: 240px;
+  border: 1px solid black;
+}
+
+.preview {
+  box-sizing: border-box;
+}
+
+.preview a:hover {
+    color: LawnGreen;
+}
+
+.preview p {
+  font-size: 26px;
+}
+
+.previews {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-top: 30px;
+}
+
+.icons {
+  margin-top: 60px;
+  box-sizing: border-box;
+}
+
+.icons span {
+  width: 20%;
+  font-size: 70px;
+  height: 50px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.icons span:hover {
+    color: LawnGreen;
+}
+
+.headroom-wrapper ul {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.headroom-wrapper li {
+    display: inline-block;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.headroom-wrapper a {
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.headroom {
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: linear-gradient(to right, #6190E8 , #a7bfe8);
+}
+.headroom--unfixed {
+  position: relative;
+  transform: translateY(0);
+}
+.headroom--scrolled {
+  transition: transform 200ms ease-in-out;
+}
+.headroom--unpinned {
+  position: fixed;
+  transform: translateY(-100%);
+}
+.headroom--pinned {
+  position: fixed;
+  transform: translateY(0%);
+}
+
+.project {
+  background-color: LightSkyBlue;
+  padding-top: 5px;
+  padding-bottom: 300px;
+}
+
+.project h1 {
+  font-size: 45px;
+  font-family: Arial;
+  font-weight: normal;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e6e6e6;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #6190E8 , #a7bfe8);
+  width: 83.33333333%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.project img {
+  margin-bottom: 20px;
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.project p {
+  font-family: Arial;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 26px;
+}
+
+.project a {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+.project a:hover {
+    color: LawnGreen;
+}
