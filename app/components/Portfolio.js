@@ -1,14 +1,29 @@
 const React = require('react');
 const Header = require('./Header');
 const Preview = require('./Preview');
+const styled = require('styled-components').default;
+
+    const Page = styled.div `
+     width:100%;
+     text-align: center;
+     padding-top: 70px;
+     height: 1700px;
+     background-color: LightCyan;
+    `;
+
+    const Previews = styled.div `
+     display: grid;
+     grid-template-columns: 50% 50%;
+     margin-top: 30px;
+    `;
 
 class Portfolio extends React.Component {
   render() {
     return (
       <section id='portfolio'>
-      <div className='page porfolio'>
+      <Page>
         <Header header='Portfolio'/>
-        <div className='previews'>
+        <Previews>
           <Preview
           link='simon-game'
           name='Simon Game'  
@@ -57,8 +72,8 @@ class Portfolio extends React.Component {
           alt='Tribute Page' 
           image='tribute_page'>
           </Preview>
-        </div>
-      </div>
+        </Previews>
+      </Page>
       </section>
     )
   }

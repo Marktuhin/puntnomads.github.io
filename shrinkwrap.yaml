@@ -1,0 +1,241 @@
+createdWith: pnpm@0.68.0
+dependencies:
+  html-webpack-plugin@^2.29.0: 2.29.0
+  styled-components@^2.1.1: 2.1.1
+  webfontloader@^1.6.28: 1.6.28
+packages:
+  /ansi-regex/2.1.1: c3b33ab5ee360d86e0e628f0468ae7ef27d654df
+  /asap/2.0.6: e50347611d7e690943208bbdafebcbc2fb866d46
+  /base64-js/1.2.1: a91947da1f4a516ea38e5b4ec0ec3773675e0886
+  /big.js/3.1.3: 4cada2193652eb3ca9ec8e55c9015669c9806978
+  /bluebird/3.5.0: 791420d7f551eea2897453a8a77653f96606d67c
+  /boolbase/1.0.0: 68dff5fbe60c51eb37725ea9e3ed310dcc1e776e
+  /buffer/5.0.6:
+    dependencies:
+      base64-js: 1.2.1
+      ieee754: 1.1.8
+    resolution: 2ea669f7eec0b6eda05b08f8b5ff661b28573588
+  /camel-case/3.0.0:
+    dependencies:
+      no-case: 2.3.1
+      upper-case: 1.1.3
+    resolution: ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73
+  /clean-css/4.1.7:
+    dependencies:
+      source-map: 0.5.6
+    resolution: b9aea4f85679889cf3eae8b40349ec4ebdfdd032
+  /commander/2.9.0:
+    dependencies:
+      graceful-readlink: 1.0.1
+    resolution: 9c99094176e12240cb22d6c5146098400fe0f7d4
+  /core-js/1.2.7: 652294c14651db28fa93bd2d5ff2983a4f08c636
+  /core-util-is/1.0.2: b5fd54220aa2bc5ab57aab7140c940754503c1a7
+  /css-color-keywords/1.0.0: fea2616dc676b2962686b3af8dbdbe180b244e05
+  /css-select/1.2.0:
+    dependencies:
+      boolbase: 1.0.0
+      css-what: 2.1.0
+      domutils: 1.5.1
+      nth-check: 1.0.1
+    resolution: 2b3a110539c5355f1cd8d314623e870b121ec858
+  /css-to-react-native/2.0.4:
+    dependencies:
+      css-color-keywords: 1.0.0
+      fbjs: 0.8.12
+      postcss-value-parser: 3.3.0
+    resolution: cf4cc407558b3474d4ba8be1a2cd3b6ce713101b
+  /css-what/2.1.0: 9467d032c38cfaefb9f2d79501253062f87fa1bd
+  /dom-converter/0.1.4:
+    dependencies:
+      utila: 0.3.3
+    resolution: a45ef5727b890c9bffe6d7c876e7b19cb0e17f3b
+  /dom-serializer/0.1.0:
+    dependencies:
+      domelementtype: 1.1.3
+      entities: 1.1.1
+    resolution: 073c697546ce0780ce23be4a28e293e40bc30c82
+  /domelementtype/1.1.3: bd28773e2642881aec51544924299c5cd822185b
+  /domelementtype/1.3.0: b17aed82e8ab59e52dd9c19b1756e0fc187204c2
+  /domhandler/2.1.0:
+    dependencies:
+      domelementtype: 1.3.0
+    resolution: d2646f5e57f6c3bab11cf6cb05d3c0acf7412594
+  /domutils/1.1.6:
+    dependencies:
+      domelementtype: 1.3.0
+    resolution: bddc3de099b9a2efacc51c623f28f416ecc57485
+  /domutils/1.5.1:
+    dependencies:
+      dom-serializer: 0.1.0
+      domelementtype: 1.3.0
+    resolution: dcd8488a26f563d61079e48c9f7b7e32373682cf
+  /emojis-list/2.1.0: 4daa4d9db00f9819880c79fa457ae5b09a1fd389
+  /encoding/0.1.12:
+    dependencies:
+      iconv-lite: 0.4.18
+    resolution: 538b66f3ee62cd1ab51ec323829d1f9480c74beb
+  /entities/1.1.1: 6e5c2d0a5621b5dadaecef80b90edfb5cd7772f0
+  /fbjs/0.8.12:
+    dependencies:
+      core-js: 1.2.7
+      isomorphic-fetch: 2.2.1
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      promise: 7.3.1
+      setimmediate: 1.0.5
+      ua-parser-js: 0.7.14
+    resolution: 10b5d92f76d45575fd63a217d4ea02bea2f8ed04
+  /graceful-readlink/1.0.1: 4cafad76bc62f02fa039b2f94e9a3dd3a391a725
+  /has-flag/1.0.0: 9d9e793165ce017a00f00418c43f942a7b1d11fa
+  /he/1.1.1: 93410fd21b009735151f8868c2f271f3427e23fd
+  /hoist-non-react-statics/1.2.0: aa448cf0986d55cc40773b17174b7dd066cb7cfb
+  /html-minifier/3.5.2:
+    dependencies:
+      camel-case: 3.0.0
+      clean-css: 4.1.7
+      commander: 2.9.0
+      he: 1.1.1
+      ncname: 1.0.0
+      param-case: 2.1.1
+      relateurl: 0.2.7
+      uglify-js: 3.0.25
+    resolution: d73bc3ff448942408818ce609bf3fb0ea7ef4eb7
+  /html-webpack-plugin/2.29.0:
+    dependencies:
+      bluebird: 3.5.0
+      html-minifier: 3.5.2
+      loader-utils: 0.2.17
+      lodash: 4.17.4
+      pretty-error: 2.1.1
+      toposort: 1.0.3
+    resolution: e987f421853d3b6938c8c4c8171842e5fd17af23
+  /htmlparser2/3.3.0:
+    dependencies:
+      domelementtype: 1.3.0
+      domhandler: 2.1.0
+      domutils: 1.1.6
+      readable-stream: 1.0.34
+    resolution: cc70d05a59f6542e43f0e685c982e14c924a9efe
+  /iconv-lite/0.4.18: 23d8656b16aae6742ac29732ea8f0336a4789cf2
+  /ieee754/1.1.8: be33d40ac10ef1926701f6f08a2d86fbfd1ad3e4
+  /inherits/2.0.3: 633c2c83e3da42a502f52466022480f4208261de
+  /is-function/1.0.1: 12cfb98b65b57dd3d193a3121f5f6e2f437602b5
+  /is-plain-object/2.0.4:
+    dependencies:
+      isobject: 3.0.1
+    resolution: 2c163b3fafb1b606d9d17928f05c2a1c38e07677
+  /is-stream/1.1.0: 12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44
+  /isarray/0.0.1: 8a18acfca9a8f4177e09abfc6038939b05d1eedf
+  /isobject/3.0.1: 4e431e92b11a9731636aa1f9c8d1ccbcfdab78df
+  /isomorphic-fetch/2.2.1:
+    dependencies:
+      node-fetch: 1.7.1
+      whatwg-fetch: 2.0.3
+    resolution: 611ae1acf14f5e81f729507472819fe9733558a9
+  /js-tokens/3.0.2: 9866df395102130e38f7f996bceb65443209c25b
+  /json5/0.5.1: 1eade7acc012034ad84e2396767ead9fa5495821
+  /loader-utils/0.2.17:
+    dependencies:
+      big.js: 3.1.3
+      emojis-list: 2.1.0
+      json5: 0.5.1
+      object-assign: 4.1.1
+    resolution: f86e6374d43205a6e6c60e9196f17c0299bfb348
+  /lodash/4.17.4: 78203a4d1c328ae1d86dca6460e369b57f4055ae
+  /loose-envify/1.3.1:
+    dependencies:
+      js-tokens: 3.0.2
+    resolution: d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848
+  /lower-case/1.1.4: 9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac
+  /ncname/1.0.0:
+    dependencies:
+      xml-char-classes: 1.0.0
+    resolution: 5b57ad18b1ca092864ef62b0b1ed8194f383b71c
+  /no-case/2.3.1:
+    dependencies:
+      lower-case: 1.1.4
+    resolution: 7aeba1c73a52184265554b7dc03baf720df80081
+  /node-fetch/1.7.1:
+    dependencies:
+      encoding: 0.1.12
+      is-stream: 1.1.0
+    resolution: 899cb3d0a3c92f952c47f1b876f4c8aeabd400d5
+  /nth-check/1.0.1:
+    dependencies:
+      boolbase: 1.0.0
+    resolution: 9929acdf628fc2c41098deab82ac580cf149aae4
+  /object-assign/4.1.1: 2109adc7965887cfc05cbbd442cac8bfbb360863
+  /param-case/2.1.1:
+    dependencies:
+      no-case: 2.3.1
+    resolution: df94fd8cf6531ecf75e6bef9a0858fbc72be2247
+  /postcss-value-parser/3.3.0: 87f38f9f18f774a4ab4c8a232f5c5ce8872a9d15
+  /pretty-error/2.1.1:
+    dependencies:
+      renderkid: 2.0.1
+      utila: 0.4.0
+    resolution: 5f4f87c8f91e5ae3f3ba87ab4cf5e03b1a17f1a3
+  /promise/7.3.1:
+    dependencies:
+      asap: 2.0.6
+    resolution: 064b72602b18f90f29192b8b1bc418ffd1ebd3bf
+  /prop-types/15.5.10:
+    dependencies:
+      fbjs: 0.8.12
+      loose-envify: 1.3.1
+    resolution: 2797dfc3126182e3a95e3dfbb2e893ddd7456154
+  /readable-stream/1.0.34:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 0.0.1
+      string_decoder: 0.10.31
+    resolution: 125820e34bc842d2f2aaafafe4c2916ee32c157c
+  /relateurl/0.2.7: 54dbf377e51440aca90a4cd274600d3ff2d888a9
+  /renderkid/2.0.1:
+    dependencies:
+      css-select: 1.2.0
+      dom-converter: 0.1.4
+      htmlparser2: 3.3.0
+      strip-ansi: 3.0.1
+      utila: 0.3.3
+    resolution: 898cabfc8bede4b7b91135a3ffd323e58c0db319
+  /setimmediate/1.0.5: 290cbb232e306942d7d7ea9b83732ab7856f8285
+  /source-map/0.5.6: 75ce38f52bf0733c5a7f0c118d81334a2bb5f412
+  /string_decoder/0.10.31: 62e203bc41766c6c28c9fc84301dab1c5310fa94
+  /strip-ansi/3.0.1:
+    dependencies:
+      ansi-regex: 2.1.1
+    resolution: 6a385fb8853d952d5ff05d0e8aaf94278dc63dcf
+  /styled-components/2.1.1:
+    dependencies:
+      buffer: 5.0.6
+      css-to-react-native: 2.0.4
+      fbjs: 0.8.12
+      hoist-non-react-statics: 1.2.0
+      is-function: 1.0.1
+      is-plain-object: 2.0.4
+      prop-types: 15.5.10
+      stylis: 3.2.7
+      supports-color: 3.2.3
+    resolution: 7e9b5bc319ee3963b47aebb74f4658119ea9d484
+  /stylis/3.2.7: 35e5a28e8d0f435f81aa10ff9971c4febabd9ff5
+  /supports-color/3.2.3:
+    dependencies:
+      has-flag: 1.0.0
+    resolution: 65ac0504b3954171d8a64946b2ae3cbb8a5f54f6
+  /toposort/1.0.3: f02cd8a74bd8be2fc0e98611c3bacb95a171869c
+  /ua-parser-js/0.7.14: 110d53fa4c3f326c121292bbeac904d2e03387ca
+  /uglify-js/3.0.25:
+    dependencies:
+      commander: 2.9.0
+      source-map: 0.5.6
+    resolution: 3dc190b0ee437497e449bc6f785665b06afbe052
+  /upper-case/1.1.3: f6b4501c2ec4cdd26ba78be7222961de77621598
+  /utila/0.3.3: d7e8e7d7e309107092b05f8d9688824d633a4226
+  /utila/0.4.0: 8a16a05d445657a3aea5eecc5b12a4fa5379772c
+  /webfontloader/1.6.28: db786129253cb6e8eae54c2fb05f870af6675bae
+  /whatwg-fetch/2.0.3: 9c84ec2dcf68187ff00bc64e1274b442176e1c84
+  /xml-char-classes/1.0.0: 64657848a20ffc5df583a42ad8a277b4512bbc4d
+registry: 'https://registry.npmjs.org/'
+version: 2

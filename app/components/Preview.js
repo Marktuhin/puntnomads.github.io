@@ -2,6 +2,22 @@ const React = require('react');
 const PropTypes = require('prop-types');
 const Link = require('react-router-dom').Link;
 const Image = require('./Image');
+const styled = require('styled-components').default;
+
+    const Section = styled.div `
+     box-sizing: border-box;
+    `;
+
+    const Text = styled.p `
+     font-size: 26px;
+    `;
+
+    const Linky = styled(Link) `
+     color: blue;
+     &:hover {
+       color: LawnGreen;
+     }
+    `;
 
 class Preview extends React.Component {
   render() {
@@ -10,12 +26,12 @@ class Preview extends React.Component {
     const image = this.props.image;
     const alt = this.props.alt;
     return (
-        <div className='preview'>
-            <Link to={'/'+link}>
-            <p>{name}</p>
+        <Section>
+            <Linky to={'/'+link}>
+            <Text>{name}</Text>
             <Image image={image} alt={alt}/>
-            </Link>
-        </div>
+            </Linky>
+        </Section>
       
     )
   }

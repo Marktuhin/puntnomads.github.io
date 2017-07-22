@@ -112,7 +112,6 @@ class App extends React.Component {
             </Switch>
           </ScrollToTop>  
         </Router>
-         
       </div>
     )
   }
