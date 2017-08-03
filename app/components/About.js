@@ -9,7 +9,7 @@ const styled = require('styled-components').default;
      height: 1000px;
      background-color: LightBlue;
     `;
-    
+
     const Description = styled.div `
 	   background-color: #a7bfe8;
      width: 67%;
@@ -36,8 +36,8 @@ const styled = require('styled-components').default;
 
 class About extends React.Component {
   render() {
-    
-   
+
+
     return (
       <section id='about'>
       <Page>
@@ -52,8 +52,8 @@ class About extends React.Component {
         </Description>
         <Description>
           <Text><Title>Read more about me</Title></Text>
-          <Text><Link 
-          href="https://drive.google.com/open?id=0B7Dg1cetZIyEalViQ1Y4eXFrM3M"
+          <Text><Link
+          href="https://drive.google.com/open?id=0B7Dg1cetZIyERDY2NEpLRUg0TzQ"
           target="_blank">
           Zakariya Moallin CV
           </Link></Text>
